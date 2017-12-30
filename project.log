@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  25 DEC 2017 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  30 DEC 2017 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,36 +789,37 @@ e
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (9.97461pt too wide) in paragraph at lines 31--32
-\T2A/cmr/m/n/10 МИЛИСЕКУНДИ). Под управува»е во реално време е важно исто да се
- напомени дека управувачката
+<./images/sb_rio_1.png, id=8, 3233.07875pt x 2702.095pt>
+File: ./images/sb_rio_1.png Graphic file (type png)
+
+<use ./images/sb_rio_1.png>
+Package pdftex.def Info: ./images/sb_rio_1.png used on input line 33.
+(pdftex.def)             Requested size: 339.72592pt x 283.91388pt.
+ [1 <./images/sb_rio_1.png>]
+Overfull \hbox (19.05719pt too wide) in paragraph at lines 42--43
+[]\T2A/cmr/m/n/10 sbRIO содржи и 3 сериски ЅС^^P портови за поврзува»ето на над
+ворешни модули од NI за проширува»е
  []
 
-
-Overfull \hbox (0.8113pt too wide) in paragraph at lines 41--42
-\T2A/cmr/m/n/10 програмата не се сублимира на наредби, туку самата внатрешна ар
-хитектура на колото се подредува
- []
-
-[1] [2] (./project.aux) ) 
+[2] [3] (./project.aux) ) 
 Here is how much of TeX's memory you used:
- 3943 strings out of 493967
- 49086 string characters out of 6163794
+ 3950 strings out of 493967
+ 49214 string characters out of 6163794
  122647 words of memory out of 5000000
- 7311 multiletter control sequences out of 15000+600000
+ 7315 multiletter control sequences out of 15000+600000
  12714 words of font info for 33 fonts, out of 8000000 for 9000
  680 hyphenation exceptions out of 8191
- 38i,6n,32p,1508b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,32p,1512b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2
 a.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000
 .pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
 mf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on project.pdf (3 pages, 109600 bytes).
+Output written on project.pdf (4 pages, 9256145 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
