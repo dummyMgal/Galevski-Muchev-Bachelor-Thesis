@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  1 JAN 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  4 JAN 2018 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,29 +537,58 @@ Overfull \hbox (0.54224pt too wide) in paragraph at lines 67--86
  [] 
  []
 
-[3 <./images/fpga_diagram.jpg>] [4] (./project.aux)
+[3 <./images/fpga_diagram.jpg>]
+<./images/init.png, id=26, 369.38pt x 57.21375pt>
+File: ./images/init.png Graphic file (type png)
+ <use ./images/init.png>
+Package pdftex.def Info: ./images/init.png used on input line 98.
+(pdftex.def)             Requested size: 271.7835pt x 42.09654pt.
+
+Overfull \hbox (0.53911pt too wide) in paragraph at lines 102--103
+\T2A/lmr/bx/n/10 создава Ѕобjект^^P коj го претставува роботот. Програмерскиот 
+термин Ѕобjект^^P дефинира конгломерат
+ []
+
+
+Overfull \hbox (7.75957pt too wide) in paragraph at lines 102--103
+\T2A/lmr/bx/n/10 на податоци и функции коj го опишува некоj апстрактен предмет.
+ Овие предмети се често неопипливи,
+ []
+
+
+Overfull \hbox (6.3655pt too wide) in paragraph at lines 102--103
+\T2A/lmr/bx/n/10 но во случаи како нашиот, овоj Ѕобjект^^P е еден кибернетски п
+ретставнички ме^^Aгуслоj коj ни овозможува
+ []
+
+[4 <./images/init.png>] [5] (./project.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5358 strings out of 493967
- 71942 string characters out of 6163794
+ 5363 strings out of 493967
+ 72037 string characters out of 6163794
  137064 words of memory out of 5000000
- 8678 multiletter control sequences out of 15000+600000
+ 8682 multiletter control sequences out of 15000+600000
  29026 words of font info for 38 fonts, out of 8000000 for 9000
  680 hyphenation exceptions out of 8191
- 38i,6n,32p,1522b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/cm-super/cm-super-t2a.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb
->
-Output written on project.pdf (5 pages, 9316193 bytes).
+ 38i,6n,32p,1573b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/
+share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on project.pdf (6 pages, 9375834 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
