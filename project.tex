@@ -1,6 +1,6 @@
 \documentclass{article}	
 \usepackage[a4paper, portrait, margin=1in]{geometry}
-\usepackage{amsmath, graphicx, gensymb}
+\usepackage{amsmath, graphicx, gensymb, float}
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
 \graphicspath{{./images/}}
@@ -36,7 +36,7 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 \end{itemize}
 Хардверот може да биде проучуван, обратно инжениран, и модифициран од студенти. Меѓутоа, главната цел е роботска перцепција и контрола кои се имплементирани во LabVIEW софтвер развиен на одделен сервер (компјутер) и спуштен на роботскиот компјутер.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \includegraphics[width=0.75\linewidth]{dani_block_diagram.png}
 \centering
 \caption{Блок дијаграм на DaNI}
@@ -44,6 +44,21 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 \end{figure}
 
 \subsection{Актуатори}
+Testing
+\begin{figure}[H]
+\includegraphics[width=0.75\linewidth]{motor_schematic.png}
+\centering
+\caption{Техничка скица на моторот}
+\label{fig:motor_schematic.png}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=0.75\linewidth]{motor_graph.png}
+\centering
+\caption{Карактеристики на моторот}
+\label{fig:motor_graph.png}
+\end{figure}
+
 \subsubsection{DC Мотори}
 \subsubsection{Серво Мотор}
 \subsection{Сензори}
