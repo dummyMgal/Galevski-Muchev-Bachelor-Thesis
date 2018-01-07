@@ -59,6 +59,7 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 \end{figure}
 
 \subsection{Актуатори}
+%NOTE TO SELF: ADD REFERENCES
 Од страната на актуатори, DaNI поседува два DC мотори со вградени редуктори, и еден серво мотор. DC моторите се користат за движење на роботот, а серво моторот има улога прецизно да го ротира PING)) ултразвучниот сензор. Подолу се наведени нивните карактеристики.
 
 \subsubsection{DC Мотори}
@@ -106,6 +107,7 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 	\end{enumerate}
 \end{enumerate}	
 
+%I think this is some pretty cool stuff and while it doesn't have that much to do with our project in particular I don't really see a reason why it shouldn't be in here considering he asked for 40-50 fucking pages
 Двата DC мотори присутни во конструкцијата се контролирани со помош на Sabertooth Dual 10A Motor Driver. Тој може да напојува два DC мотори со четкици со струја до 10А поединечно, со максимални 15А за кратки временски периоди, со многу тивка операција поради ултрасоничната брзина (32kHz) на контрола на неговите транзистори. Sabertooth исто така претставува првиот синхрон регенеративен мотор драјвер во својата класа. Регенеративната топологија значи дека батериите на уредот се полнат кога на уредот му се наредува да забави или да се врати назад, при што исто така ја зголемува и брзината на реакција. Вклучува внатрешно напојување од 5V кое може да напојува микроконтролер или R/C приемник. 
 
 Наредно се зададени техничката скица на моторот со неговите димензии, како и графикот на карактеристики на моторот за различно оптоварување. Овој график ги дава целокупните карактеристики, т.е. карактеристиките на моторот заедно со редукторот.
@@ -125,6 +127,39 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 \end{figure}
 
 \subsubsection{Серво Мотор}
+
+Единствена функција на серво моторот во оваа конструкција е ротација на PING)) сензорот, поради што тој не е изложен на значителни оптоварувања.
+
+\begin{table}[h]
+\caption{Карактеристики на серво моторот}
+\label{tab:title}
+
+\begin{center}
+\begin{tabular}{||c|c||}
+\hline
+Димензии  & 39.88 х 19.81 х 37.85mm \\ [0.75ex]
+\hline
+Тежина & 45g \\
+\hline 
+Вид на излезно вратило &  \\
+\hline
+Ранг на напон &  \\
+\hline
+Брзина без оптоварување (4.8V) &  \\
+\hline
+Брзина без оптоварување (6.0V) &  \\
+\hline
+Вртежен момент на запирање (4.8V) &  \\ 
+\hline
+Вртежен момент на запирање (6.0V) &  \\ [0.5ex]
+\hline
+To be continued & ... \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 \subsection{Сензори}
 \subsubsection{Енкодер}
 \subsubsection{Ултразвучен Сензор}
@@ -299,6 +334,7 @@ Good Luck, have fun.
 \subsection{Компензација на брзинска грешка со ПД контролер}
 %Just a proof of concept PID link between left motor and right motor. One will be the setpoint giver, the other will follow and be
 %controlled by the PID. Speeds should match up.
+%I honestly hope that's what he asked for. To be perfectly honest I don't think he knew exactly what he was asking for either but I've had it up to here (^) with his nonsense, so yeah let's just do this simpler version.
 \subsection{Избегавање пречки со хистограм на векторски-полиња}
 %OH BOY. This one will be a team effort.
 \section{Предизвици}
