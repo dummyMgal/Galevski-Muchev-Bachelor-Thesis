@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}\IeC {\CYRV }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrd }}{1}
 \contentsline {section}{\numberline {2}DaNI}{2}
 \contentsline {subsection}{\numberline {2.1}\IeC {\CYRA }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }}{2}
-\contentsline {subsubsection}{\numberline {2.1.1}DC \IeC {\CYRM }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}DC \IeC {\CYRM }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }}{2}
 \contentsline {subsubsection}{\numberline {2.1.2}\IeC {\CYRS }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrv }\IeC {\cyro } \IeC {\CYRM }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }}{3}
 \contentsline {subsection}{\numberline {2.2}\IeC {\CYRS }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }}{3}
 \contentsline {subsubsection}{\numberline {2.2.1}\IeC {\CYRE }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrr }}{3}
