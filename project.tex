@@ -34,6 +34,7 @@
 \end{figure} 
 
 \newpage
+
 \section{DaNI}
 
 National Instruments (NI) LabVIEW комплетот за роботика се состои од DaNI, кој содржи:
@@ -45,6 +46,7 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 	\item Два Pitsco Education TETRIX 10.16cm тркала и едно омни тркало за насочување
 	\item sbRIO единица и соодветни кабли за поврзување
 \end{itemize}
+
 Хардверот може да биде проучуван, обратно инжениран, и модифициран од студенти. Меѓутоа, главната цел е роботска перцепција и контрола кои се имплементирани во LabVIEW софтвер развиен на одделен сервер (компјутер) и спуштен на роботскиот компјутер.
 
 \begin{figure}[H]
@@ -55,10 +57,20 @@ National Instruments (NI) LabVIEW комплетот за роботика се 
 \end{figure}
 
 \subsection{Актуатори}
+Од страната на актуатори, DaNI поседува два DC мотори со вградени редуктори, и еден серво мотор. DC моторите се користат за движење на роботот, а серво моторот има улога прецизно да го ротира PING)) ултразвучниот сензор. Подолу се наведени нивните карактеристики.
 
 \subsubsection{DC Мотори}
 
-DaNI е опремен со два DC мотори, 
+\renewcommand{\theenumii}{\arabic{enumii}}
+\begin{enumerate}
+	\item При нормални услови на работа:
+	\begin{enumerate}
+		\item Номинален напон: $ 6-13.8 V $
+		\item Температура на околината: $ -10 \pm 60 \degree C $
+	\end{enumerate}
+\end{enumerate}
+	
+		
 
 \begin{figure}[H]
 \includegraphics[width=0.75\linewidth]{motor_schematic.png}
