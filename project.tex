@@ -473,7 +473,7 @@ $ a = b^2 + \sqrt{\frac{7 \cdot x}{{\ddot x + 3 \cdot \dot x + \int_a^b{x dt}}}}
 Good Luck, have fun.
 \newpage
 \section{Изработени Алгоритми}
-Во текот на нашата работа со DaNI роботот, развивме 2 алгоритми за неговото управување. Првиот алгоритам ја имаше задачата да го држи роботот на фиксно растојание од пречката (што се детектираше со ултразвучниот сензор), додека вториот алгоритам беше изработен со цел да се изедначат брзините на двете тркала, бидејќи не се совпаѓае. Двата алгоритми се базираат на управување со повратна врска, употребувајќи ПД контролери. Третиот алгоритам е примерниот алгоритам за избегавање на пречки даден од NI за демонстрација. 
+Во текот на нашата работа со DaNI роботот, развивме 2 алгоритми за неговото управување. Првиот алгоритам имаше задача да го држи роботот на фиксно растојание од пречката (што се детектираше со ултразвучниот сензор), додека вториот алгоритам беше изработен со цел да се изедначат брзините на двете тркала. Двата алгоритми се базираат на управување со повратна врска, употребувајќи ПД контролери. Третиот алгоритам е примерниот алгоритам за избегавање на пречки даден од NI за демонстрација.
 
 \subsection{Одржување на фиксно растојание со ПД контролер}
 %Just a text based description of what's happening on the printout of the program, given by nikola. 
@@ -494,17 +494,36 @@ Good Luck, have fun.
 \item Алгоритамот чека 500ms пред да го повика финалниот блок за деиницијализација (сл.\ref{fig:deinit.png}).  
 \end{enumerate}
 
-
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.80\paperheight,angle=90]{PID_Control.png}
+\includegraphics[width=0.80\paperheight,angle=90]{PID_Control.png}
 \caption{Алгоритамот за одржување на растојание}
 \label{fig:PID_Control.png}
 \end{figure}
+
 \subsection{Компензација на брзинска грешка со ПД контролер}
+
+Поради разлики во конструкцијата на моторите настанати за време на производство (што е честа појава кај сериско производство каде се зголемува квантитет и намалува цената, по сметка на квалитетот), помеѓу нив има мали разлики во работата. Т.е. еден од моторите реагира/работи побрзо од другиот. Заради ова изработивме алгоритам кој што прави компензација на брзината на еден од моторите во зависност од другиот. Кој мотор се зема за примерок (главен мотор) зависи од нас, и со користење на вградените енкодери и повратна врска со ПД контролер, се врши изедначување на брзините. Во главно се користат истите елементи од претходниот алгоритам. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{wheel_control_fp.png}
+\caption{Front Panel на алгоритамот за компензација на брзинска грешка}
+\label{fig:wheel_control_fp.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\paperheight,angle=90]{wheel_control_vi.png}
+\caption{Алгоритамот за компензација на брзинска грешка}
+\label{fig:wheel_control_vi.png}
+\end{figure}
+
 %Just a proof of concept PID link between left motor and right motor. One will be the setpoint giver, the other will follow and be
 %controlled by the PID. Speeds should match up.
 %I honestly hope that's what he asked for. To be perfectly honest I don't think he knew exactly what he was asking for either but I've had it up to here (^) with his nonsense, so yeah let's just do this simpler version.
+
+
 \subsection{Избегавање пречки со хистограм на векторски-полиња}
 %OH BOY. This one will be a team effort.
 \section{Предизвици}
