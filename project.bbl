@@ -59,7 +59,47 @@
       \endverb
       \keyw{construction}
     \endentry
-    \entry{vfh}{article}{}
+    \entry{sbrio}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e07a8a16139f25a4c05b0e1e9aedfa3a}{%
+           family={Instruments},
+           family_i={I\bibinitperiod},
+           given={National},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{fullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NI sbRIO 96xx User Guide}
+      \verb{url}
+      \verb http://www.ni.com/pdf/manuals/375052c.pdf
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{dani}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e07a8a16139f25a4c05b0e1e9aedfa3a}{%
+           family={Instruments},
+           family_i={I\bibinitperiod},
+           given={National},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{fullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Starter Kit 2.0 VIs}
+      \verb{url}
+      \verb http://zone.ni.com/reference/en-XX/help/372983B-01/lvrobovi/starter_kit_2_pal/
+      \endverb
+      \keyw{contruction}
+    \endentry
+    \entry{vfh}{book}{}
       \name{author}{1}{}{%
         {{hash=695ea4922891f88599212721fa57008d}{%
            family={J.\bibnamedelimi Borenstein},
@@ -114,7 +154,7 @@
       \endverb
       \keyw{construction}
     \endentry
-    \entry{pid}{article}{}
+    \entry{pid}{book}{}
       \name{author}{1}{}{%
         {{hash=64bd2bac9d620a506d324f0e18b1aab1}{%
            family={Petrovich},
@@ -130,6 +170,24 @@
       \field{labeltitlesource}{title}
       \field{title}{Automatskog Upravlivanja Interna Skripta I PPT Prezentacija}
       \keyw{physics}
+    \endentry
+    \entry{fpga}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f55ffe138d0d53d3eefdb3f30b312f0e}{%
+           family={Raveon},
+           family_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{fullhash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FPGA-Field Programmable Gate Array}
+      \verb{url}
+      \verb http://www.rfneulink.com/FPGA-whitepaper.htm
+      \endverb
+      \keyw{construction}
     \endentry
     \entry{servo}{online}{}
       \name{author}{1}{}{%
