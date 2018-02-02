@@ -1,15 +1,15 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'project.blg'
-[46] biber:303> INFO - === Thu Jan 25, 2018, 22:57:36
-[79] Biber.pm:359> INFO - Reading 'project.bcf'
-[177] Biber.pm:832> INFO - Using all citekeys in bib section 0
-[199] Biber.pm:3670> INFO - Processing section 0
-[225] Biber.pm:3840> INFO - Looking for bibtex format file 'sample.bib' for section 0
-[226] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[237] bibtex.pm:1292> INFO - Found BibTeX data source 'sample.bib'
-[283] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[284] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[285] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'macedonian'
-[285] Biber.pm:3505> INFO - No sort tailoring available for locale 'macedonian'
-[297] bbl.pm:608> INFO - Writing 'project.bbl' with encoding 'UTF-8'
-[300] bbl.pm:712> INFO - Output to project.bbl
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'project.blg'
+[34] biber:287> INFO - === Fr Feb  2, 2018, 15:15:22
+[117] Biber.pm:348> INFO - Reading 'project.bcf'
+[242] Biber.pm:739> INFO - Using all citekeys in bib section 0
+[247] Biber.pm:3151> INFO - Processing section 0
+[339] Biber.pm:3308> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[345] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[349] bibtex.pm:974> INFO - Found BibTeX data source 'sample.bib'
+[445] UCollate.pm:65> INFO - Overriding locale 'macedonian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[445] UCollate.pm:65> INFO - Overriding locale 'macedonian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[446] Biber.pm:3028> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'macedonian'
+[446] Biber.pm:3032> INFO - No sort tailoring available for locale 'macedonian'
+[454] bbl.pm:519> INFO - Writing 'project.bbl' with encoding 'UTF-8'
+[468] bbl.pm:615> INFO - Output to project.bbl

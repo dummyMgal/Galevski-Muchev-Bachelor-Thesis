@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,21 +18,19 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global/}
+  \sortlist[entry]{nty/global}
     \entry{dcmotor}{online}{}
       \name{author}{1}{}{%
         {{hash=a681d161cec76be19b8aaa08c2f84beb}{%
            family={Educational},
-           familyi={E\bibinitperiod},
+           family_i={E\bibinitperiod},
            given={PITSCO},
-           giveni={P\bibinitperiod}}}%
+           given_i={P\bibinitperiod}}}%
       }
       \strng{namehash}{a681d161cec76be19b8aaa08c2f84beb}
       \strng{fullhash}{a681d161cec76be19b8aaa08c2f84beb}
-      \strng{authornamehash}{a681d161cec76be19b8aaa08c2f84beb}
-      \strng{authorfullhash}{a681d161cec76be19b8aaa08c2f84beb}
       \field{sortinit}{E}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Tetrix Max DC Motor}
@@ -45,16 +43,14 @@
       \name{author}{1}{}{%
         {{hash=d18c3e16bc1f912cac1354a164f61167}{%
            family={Engineering},
-           familyi={E\bibinitperiod},
+           family_i={E\bibinitperiod},
            given={Dimension},
-           giveni={D\bibinitperiod}}}%
+           given_i={D\bibinitperiod}}}%
       }
       \strng{namehash}{d18c3e16bc1f912cac1354a164f61167}
       \strng{fullhash}{d18c3e16bc1f912cac1354a164f61167}
-      \strng{authornamehash}{d18c3e16bc1f912cac1354a164f61167}
-      \strng{authorfullhash}{d18c3e16bc1f912cac1354a164f61167}
       \field{sortinit}{E}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sabertooth Dual 10A Motor Driver}
@@ -67,16 +63,14 @@
       \name{author}{1}{}{%
         {{hash=695ea4922891f88599212721fa57008d}{%
            family={J.\bibnamedelimi Borenstein},
-           familyi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
            given={Y.\bibnamedelimi Koren},
-           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+           given_i={Y\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \strng{namehash}{695ea4922891f88599212721fa57008d}
       \strng{fullhash}{695ea4922891f88599212721fa57008d}
-      \strng{authornamehash}{695ea4922891f88599212721fa57008d}
-      \strng{authorfullhash}{695ea4922891f88599212721fa57008d}
       \field{sortinit}{J}
-      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Vector Field Histogram - Fast Obstacle Avoidance For Mobile Robots}
@@ -86,19 +80,17 @@
       \name{author}{1}{}{%
         {{hash=5f19f8299eb426ab20c344b262859f7d}{%
            family={King},
-           familyi={K\bibinitperiod},
+           family_i={K\bibinitperiod},
            given={Dr.\bibnamedelimi Robert},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           given_i={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Colorado School of Mines}%
       }
       \strng{namehash}{5f19f8299eb426ab20c344b262859f7d}
       \strng{fullhash}{5f19f8299eb426ab20c344b262859f7d}
-      \strng{authornamehash}{5f19f8299eb426ab20c344b262859f7d}
-      \strng{authorfullhash}{5f19f8299eb426ab20c344b262859f7d}
       \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mobile Robotics Experiments with DaNI}
@@ -108,14 +100,12 @@
       \name{author}{1}{}{%
         {{hash=c626285221f3850191ea3ce4b917779c}{%
            family={Parallax},
-           familyi={P\bibinitperiod}}}%
+           family_i={P\bibinitperiod}}}%
       }
       \strng{namehash}{c626285221f3850191ea3ce4b917779c}
       \strng{fullhash}{c626285221f3850191ea3ce4b917779c}
-      \strng{authornamehash}{c626285221f3850191ea3ce4b917779c}
-      \strng{authorfullhash}{c626285221f3850191ea3ce4b917779c}
       \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PING))) Ultrasonic Distance Sensor}
@@ -128,16 +118,14 @@
       \name{author}{1}{}{%
         {{hash=64bd2bac9d620a506d324f0e18b1aab1}{%
            family={Petrovich},
-           familyi={P\bibinitperiod},
+           family_i={P\bibinitperiod},
            given={Dushan},
-           giveni={D\bibinitperiod}}}%
+           given_i={D\bibinitperiod}}}%
       }
       \strng{namehash}{64bd2bac9d620a506d324f0e18b1aab1}
       \strng{fullhash}{64bd2bac9d620a506d324f0e18b1aab1}
-      \strng{authornamehash}{64bd2bac9d620a506d324f0e18b1aab1}
-      \strng{authorfullhash}{64bd2bac9d620a506d324f0e18b1aab1}
       \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Automatskog Upravlivanja Interna Skripta I PPT Prezentacija}
@@ -147,14 +135,12 @@
       \name{author}{1}{}{%
         {{hash=ea8fb861e4ce220231dd2b7a715ab933}{%
            family={Servocity},
-           familyi={S\bibinitperiod}}}%
+           family_i={S\bibinitperiod}}}%
       }
       \strng{namehash}{ea8fb861e4ce220231dd2b7a715ab933}
       \strng{fullhash}{ea8fb861e4ce220231dd2b7a715ab933}
-      \strng{authornamehash}{ea8fb861e4ce220231dd2b7a715ab933}
-      \strng{authorfullhash}{ea8fb861e4ce220231dd2b7a715ab933}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{HS-485HB Servo}
