@@ -69,5 +69,3 @@
 \contentsline {section}{\numberline {7}\IeC {\CYRZ }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyru }\IeC {\cyrch }\IeC {\cyro }\IeC {\cyrk }}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8}\IeC {\CYRP }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrsh }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra }}{23}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrl }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{24}
