@@ -24,7 +24,7 @@ https://github.com/UnaNancyOwen/Kinect2Sample/blob/master/sample/Body/
 
 we need
 
-https://msdn.microsoft.com/en-us/library/dn758675.aspx	
+https://msdn.microsoft.com/en-us/library/dn758675.aspx
 
 //this is the reference page for the kinect's api
 
@@ -34,7 +34,7 @@ https://pterneas.com/2014/03/13/kinect-for-windows-version-2-body-tracking/
 
 
 
-//Pterneas has made his own body tracking efforts. 
+//Pterneas has made his own body tracking efforts.
 
 https://blogs.msdn.microsoft.com/nativeconcurrency/2009/11/18/concurencyparallel_for-and-concurrencyparallel_for_each/
 
@@ -42,4 +42,4 @@ https://blogs.msdn.microsoft.com/nativeconcurrency/2009/11/18/concurencyparallel
 
 won't need full blown CUDA anyway
 
-
+http://www.i-programmer.info/news/105-artificial-intelligence/2176-kinects-ai-breakthrough-explained.html
