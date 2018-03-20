@@ -40,9 +40,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}NI sbRIO 9632}{14}
 \defcounter {refsection}{0}\relax 
+
 \contentsline {subsection}{\numberline {6.1}FPGA}{14}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2}\IeC {\CYRS }\IeC {\cyrp }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyrb }\IeC {\cyra } \IeC {\cyrs }\IeC {\cyro } \IeC {\CYRA }\IeC {\cyrr }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyro } \IeC {\CYRU }\IeC {\cyrn }\IeC {\cyro }}{15}
+
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}LabVIEW}{16}
 \defcounter {refsection}{0}\relax 
@@ -70,6 +72,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.3}\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrn }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyre }\IeC {\cyrje }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyro }}{19}
 \defcounter {refsection}{0}\relax 
+
 \contentsline {subsubsection}{\numberline {8.1.4}\IeC {\CYRP }\IeC {\CYRI }\IeC {\CYRD } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyrv }\IeC {\cyro } LabVIEW}{22}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9}\IeC {\CYRI }\IeC {\cyrz }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri } \IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyrm }\IeC {\cyri }}{23}
@@ -83,3 +86,4 @@
 \contentsline {section}{\numberline {10}\IeC {\CYRZ }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyru }\IeC {\cyrch }\IeC {\cyro }\IeC {\cyrk }}{28}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11}\IeC {\CYRP }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrsh }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra }}{28}
+
