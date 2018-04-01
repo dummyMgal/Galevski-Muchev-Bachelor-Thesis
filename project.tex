@@ -185,6 +185,7 @@
 
   \subsection{Пример на Отчитување}
     Со следната програма се добива соодветниот прикажан излез:
+    EXAMPLE WITH LISTING PACKAGE
     \begin{lstlisting}[language=C++]
       #include "stdafx.h"
       #include <iostream>
@@ -192,7 +193,7 @@
       #include <thread>
       #include <chrono>
       #include "ppl.h"
-      #include "Kinect2_Tools.h" 
+      #include "Kinect2_Tools.h"
       int main(int argc, char ** argv){
         try {
             Kinect kinect;
@@ -216,10 +217,42 @@
       }
       \end{lstlisting}
 
+      EXAMPLE WITH VERBATIM
+      \begin{verbatim}
+          #include "stdafx.h"
+          #include <iostream>
+          #include "util.h"
+          #include <thread>
+          #include <chrono>
+          #include "ppl.h"
+          #include "Kinect2_Tools.h"
+          int main(int argc, char ** argv){
+            try {
+                Kinect kinect;
+                kinect.initializeSensor();
+                kinect.initializeColor();
+                kinect.initializeBody();
+
+                while(true){
+                  kinect.updateColor();
+                  kinect.updateBody();
+                  kinect.drawColor();
+                  kinect.drawBody();
+                  kinect.showBody();
+                }
+
+                 }
+            catch (std::exception &except)
+            {
+              std::cout << except.what() <<std::endl;
+            }
+          }
+        \end{verbatim}
+
     Кодот горе е скратен со помош на фунцкиите што ги напишавме и вградивме во проектот преку \verb|#include "Kinect2_Tools.h"| командата. Во прилог е прикачен целиот header фајл.
 
     \begin{figure}[H]
-      \includegraphcis{an-image-that-doesnt-exist-yet.png}
+      \includegraphics{an-image-that-doesnt-exist-yet.png}
       \centering
       \caption{Излез добиен од горе наведената програма}
       \label{fig:an-image-that-doesnt-exist-yet.png}
