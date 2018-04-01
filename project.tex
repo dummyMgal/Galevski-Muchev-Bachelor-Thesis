@@ -8,7 +8,8 @@
 	\usepackage[utf8]{inputenc}
 	\usepackage{textcomp}
 	\usepackage{multirow}
-	\usepackage[english, macedonian]{babel}
+  \usepackage{lstlisting}
+  \usepackage[english, macedonian]{babel}
 
 	\usepackage{biblatex}
 	\addbibresource{sample.bib}
@@ -171,6 +172,59 @@
 \newpage
 
 \section{Начин на програмирање на Kinect-от во C++}
+  Програмирањето на Kinect-от, односно неговото отчитување, не е сосема едноставен, туку неколку чекори се потребни за да се стигне до добивањето на самата слика.
+
+  \begin{figure}[H]
+    \includegraphics[width=0.75\linewidth]{./images/programming_flow_trimmed.png}
+    \centering
+    \caption{Општ протокол за отчитување на Kinect-от}
+    \label{fig:programming_flow_trimmed.png}
+    \end{figure}
+
+  Причината за оваа сложеност е поради големата количина на можности пружена од интерфејсот за програмирање од Microsoft. За секој член од отчитувачкиот процес постои барем една опција која би влиаела на крајната слика.
+
+  \subsection{Пример на Отчитување}
+    Со следната програма се добива соодветниот прикажан излез:
+    \begin{lstlisting}[language=C++]
+      #include "stdafx.h"
+      #include <iostream>
+      #include "util.h"
+      #include <thread>
+      #include <chrono>
+      #include "ppl.h"
+      #include "Kinect2_Tools.h" //Ова е наш header фајл кој ги содржи сите
+                                  //функции за операција
+      int main(int argc, char ** argv){
+        try {
+            Kinect kinect;
+            kinect.initializeSensor();
+            kinect.initializeColor();
+            kinect.initializeBody();
+
+            while(true){
+              kinect.updateColor();
+              kinect.updateBody();
+              kinect.drawColor();
+              kinect.drawBody();
+              kinect.showBody();
+            }
+
+             }
+        catch (std::exception &except)
+        {
+          std::cout << except.what() <<std::endl;
+        }
+      }
+      \end{lstlisting}
+
+    Кодот горе е скратен со помош на фунцкиите што ги напишавме и вградивме во проектот преку \verb|#include "Kinect2_Tools.h"| командата. Во прилог е прикачен целиот header фајл.
+
+    \begin{figure}[H]
+      \includegraphcis{an-image-that-doesnt-exist-yet.png}
+      \centering
+      \caption{Излез добиен од горе наведената програма}
+      \label{fig:an-image-that-doesnt-exist-yet.png}
+      \end{figure}
 
 \newpage
 
