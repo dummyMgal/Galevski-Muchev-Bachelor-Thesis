@@ -42,7 +42,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1}FPGA}{20}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {7}LabVIEW}{21}
+=======
+\contentsline {section}{\numberline {7}\IeC {\CYRU }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrv }\IeC {\cyro } LabVIEW}{21}
+>>>>>>> working
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1}Robotics \IeC {\CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }: Starter Kit 2.0}{21}
 \defcounter {refsection}{0}\relax 
@@ -52,11 +56,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\IeC {\CYRU }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }:\\}{22}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyro }\IeC {\cyrd } \IeC {\cyre }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }:\\}{22}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyro }\IeC {\cyrd } \IeC {\cyru }\IeC {\cyrl }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt } \IeC {\cyrs }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrr }:\\}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\IeC {\CYRN }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyro }\IeC {\cyrch }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyru }\IeC {\cyrl }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt } \IeC {\cyrs }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrr }:\\}{23}
+=======
+\contentsline {subsection}{\numberline {7.2}\IeC {\CYRV }\IeC {\cyra }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }-\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyri } \IeC {\cyri } \IeC {\cyrn }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrb }\IeC {\cyra }}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{bodyDetect:\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{colourDist:\\}{23}
+>>>>>>> working
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8}\IeC {\CYRU }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyro } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyra }}{24}
 \defcounter {refsection}{0}\relax 
@@ -71,3 +83,8 @@
 \contentsline {subsubsection}{\numberline {8.1.4}\IeC {\CYRD }\IeC {\cyri }\IeC {\cyrf }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrn }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyre }\IeC {\cyrje }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyro }}{27}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.1.5}\IeC {\CYRP }\IeC {\CYRI }\IeC {\CYRD } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyrv }\IeC {\cyro } LabVIEW}{28}
+<<<<<<< HEAD
+=======
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrl }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{30}
+>>>>>>> working
