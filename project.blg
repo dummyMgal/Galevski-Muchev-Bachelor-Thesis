@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'project.blg'
-[28] biber:303> INFO - === нед апр  1, 2018, 12:57:39
-[46] Biber.pm:359> INFO - Reading 'project.bcf'
-[113] Biber.pm:832> INFO - Using all citekeys in bib section 0
+[30] biber:303> INFO - === Tue Apr 10, 2018, 18:53:05
+[45] Biber.pm:359> INFO - Reading 'project.bcf'
+[111] Biber.pm:832> INFO - Using all citekeys in bib section 0
 [125] Biber.pm:3670> INFO - Processing section 0
-[141] Biber.pm:3840> INFO - Looking for bibtex format file 'sample.bib' for section 0
-[142] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[145] bibtex.pm:1292> INFO - Found BibTeX data source 'sample.bib'
-[175] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[176] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[176] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'macedonian'
-[176] Biber.pm:3505> INFO - No sort tailoring available for locale 'macedonian'
-[186] bbl.pm:608> INFO - Writing 'project.bbl' with encoding 'UTF-8'
-[187] bbl.pm:712> INFO - Output to project.bbl
+[137] Biber.pm:3840> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[138] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[143] bibtex.pm:1292> INFO - Found BibTeX data source 'sample.bib'
+[174] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[174] UCollate.pm:68> INFO - Overriding locale 'macedonian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[174] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'macedonian'
+[174] Biber.pm:3505> INFO - No sort tailoring available for locale 'macedonian'
+[183] bbl.pm:608> INFO - Writing 'project.bbl' with encoding 'UTF-8'
+[185] bbl.pm:712> INFO - Output to project.bbl
