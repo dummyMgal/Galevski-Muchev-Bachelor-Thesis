@@ -7,4 +7,4 @@ Welcome to our Bachelor's thesis. It ain't in English, but feel free to try and 
 - [ ] Finish software section, i.e. architecture and communication structure.
 - [ ] Add link to the github repo in appendix.
 - [ ] Add image-that-doesnt-exist-yet.png
-- [ ] fix todo list
+- [x] fix todo list
