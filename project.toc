@@ -43,44 +43,52 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}\IeC {\CYRO }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt } \IeC {\cyri } \IeC {\cyrn }\IeC {\cyre }\IeC {\cyrg }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre }}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}\IeC {\CYRS }\IeC {\cyro }\IeC {\cyrf }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyro } LabVIEW}{23}
+\contentsline {subsection}{\numberline {7.1}\IeC {\CYRG }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn } \IeC {\CYRO }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs } \IeC {\cyrn }\IeC {\cyra } \IeC {\CYRS }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt }}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Robotics \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }: Starter Kit 2.0}{23}
+\contentsline {subsection}{\numberline {7.2}\IeC {\CYRB }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrk } \IeC {\CYRD }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm } \IeC {\cyrn }\IeC {\cyra } \IeC {\CYRS }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt }}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{23}
+\contentsline {subsection}{\numberline {7.3}\IeC {\CYRM }\IeC {\cyro }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyrn }\IeC {\cyra } \IeC {\CYRR }\IeC {\cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyra }}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{24}
+\contentsline {subsubsection}{\numberline {7.3.1}\IeC {\CYRV }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl } \IeC {\cyri } \IeC {\CYRP }\IeC {\CYRD } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre }}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRU }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }:\\}{24}
+\contentsline {section}{\numberline {8}\IeC {\CYRS }\IeC {\cyro }\IeC {\cyrf }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyro } LabVIEW}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}LabVIEW MakerHub \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyri }}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.1}Kinect \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }}{24}
+\contentsline {subsection}{\numberline {8.1}Robotics \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }: Starter Kit 2.0}{25}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{25}
+\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyro }\IeC {\cyrd } \IeC {\CYRR }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrk }\IeC {\cyra }:\\}{25}
+\contentsline {paragraph}{\IeC {\CYRU }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }:\\}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\CYRZ }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrb }\IeC {\cyrn }\IeC {\cyri } \IeC {\CYRK }\IeC {\cyro }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyrd }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyri }:\\}{25}
+\contentsline {subsection}{\numberline {8.2}LabVIEW MakerHub \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyri }}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.2}PS4 \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }}{25}
+\contentsline {subsubsection}{\numberline {8.2.1}Kinect \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{25}
+\contentsline {paragraph}{\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{25}
+\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre }:\\}{26}
+\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyro }\IeC {\cyrd } \IeC {\CYRR }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrk }\IeC {\cyra }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}\IeC {\CYRV }\IeC {\cyra }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }-\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyri } \IeC {\cyri } \IeC {\cyrn }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrb }\IeC {\cyra }}{26}
+\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrn }\IeC {\cyra } \IeC {\CYRZ }\IeC {\cyrg }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrb }\IeC {\cyrn }\IeC {\cyri } \IeC {\CYRK }\IeC {\cyro }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyrd }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyri }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{bodyDetect:\\}{26}
+\contentsline {subsubsection}{\numberline {8.2.2}PS4 \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrl }}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{colourDist:\\}{26}
+\contentsline {paragraph}{\IeC {\CYRI }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrzh }\IeC {\cyri }\IeC {\cyrm } - \IeC {\CYRT }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn } \IeC {\cyrc }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrr }:\\}{26}
+\contentsline {paragraph}{\IeC {\CYRD }\IeC {\cyre }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra }:\\}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrzh }\IeC {\cyri }\IeC {\cyrm } - \IeC {\CYRT }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs }\IeC {\cyrf }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }:\\}{27}
+\contentsline {paragraph}{\IeC {\CYRO }\IeC {\cyrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre }:\\}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{differentialDrive:\\}{27}
+\contentsline {subsection}{\numberline {8.3}\IeC {\CYRV }\IeC {\cyra }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }-\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyri } \IeC {\cyri } \IeC {\cyrn }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrb }\IeC {\cyra }}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{bodyDetect:\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{colourDist:\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrzh }\IeC {\cyri }\IeC {\cyrm } - \IeC {\CYRT }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn } \IeC {\cyrc }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrr }:\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrzh }\IeC {\cyri }\IeC {\cyrm } - \IeC {\CYRT }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs }\IeC {\cyrf }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }:\\}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{differentialDrive:\\}{29}
