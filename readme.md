@@ -8,3 +8,10 @@ Welcome to our Bachelor's thesis. It ain't in English, but feel free to try and 
 - [ ] Add link to the github repo in appendix.
 - [ ] Add image-that-doesnt-exist-yet.png
 - [x] fix todo list
+- [ ] Avoidance, Vector Field Histogram, take material from backup branch
+- [ ] Colour Section Images
+- [ ] Widescreen Screenshots
+- [ ] Appendix
+- [ ] Kinect v2 + PING dist-time study
+- [ ] Write DaNI's IP address on the construction
+- [ ] Abstract
