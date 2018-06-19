@@ -188,6 +188,7 @@
 \newpage
 
 \section{Начин на програмирање на Kinect-от во C++}
+\label{sec:example}
   Програмирањето на Kinect-от, односно неговото отчитување, не е сосема едноставно, туку неколку чекори се потребни за да се стигне до добивањето на самата слика.
 
   \begin{figure}[H]
@@ -236,10 +237,11 @@
     Кодот е скратен со помош на фунцкиите што ги напишавме и вградивме во проектот преку \verb|#include "Kinect2_Tools.h"| командата. Во прилог е прикачен целиот header фајл.
 
     \begin{figure}[H]
-      %\includegraphics{an-image-that-doesnt-exist-yet.png}
+      %\includegraphics{an-image-that-doesnt-exist-yet.png
       \centering
+      \includegraphics[width = 0.75\linewidth]{./images/shrug_for_windows.PNG}
       \caption{Излез добиен од горе наведената програма}
-      \label{fig:an-image-that-doesnt-exist-yet.png}
+      \label{fig:shrug_for_windows}
       \end{figure}
 
 \newpage
@@ -1148,14 +1150,10 @@
 
   Со овие податоци, роботот се насочува и движи кон најдобрата детектирана празнина.
 \newpage
-\section{Анекс 2 - C++ код од примери за примена на Kinect One камерата}
-    Следниот код е од примерите дадени од Microsoft за програмирањето на Kinect-от. На излез оваа функција го дава скелетот на личностите кои се препознати, како и следење на состојбата на нивните раце, како на подолната слика.
-    \begin{figure}[H]
-      \centering
-      \includegraphics[width = 0.75\linewidth]{./images/shrug_for_windows.PNG}
-      \caption{Излез од првиот пример даден од Microsoft}
-    \end{figure}
+\section{Анекс 2 - Целосен C++ код од поглавје \ref{sec:example}}
+    На следниот линк може заинтересираниот читач да го најде целосиот код за примерот од поглавјe \ref{sec:example}. Кодот е напишан во C++ во Visual Studio 2017 Community и има потреба од openCV библиотеката, како и SDK-то на Kinect-от.
 
+    https://github.com/markogalevski/DaNI\_Kinect2\_Tracker
 
 
 \medskip
