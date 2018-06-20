@@ -428,6 +428,29 @@
       \endverb
       \keyw{API}
     \endentry
+    \entry{wassenmuller}{paper}{}
+      \name{author}{1}{}{%
+        {{hash=44c4ecffbbc189aed49ac0dbf209d519}{%
+           family={Oliver\bibnamedelima Wasenmueller},
+           familyi={O\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Didier\bibnamedelima Stricker},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {German Research Center for Artifical Intelligence}%
+      }
+      \strng{namehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{fullhash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{bibnamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authorbibnamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authornamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authorfullhash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparison of Kinect v1 and v2 Depth Images in Terms of Accuracy and Precision}
+    \endentry
     \entry{nancyowen}{online}{}
       \name{author}{1}{}{%
         {{hash=4bc2d6b4857d8a971ed1c04dcf7b1b19}{%

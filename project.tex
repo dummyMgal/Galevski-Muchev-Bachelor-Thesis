@@ -30,7 +30,7 @@
     \newpage
     \pagenumbering{arabic}
 
-\section{Апстракт}
+\section*{Апстракт}
   %save this for last
 
 \section{Вовед}
@@ -45,23 +45,20 @@
   \bigbreak
   Главниот дел од оваа дипломска работа ќе биде составен од управувањето на еден робот од National Instruments со диференцијален погон. Целта на управувањето е да се постигне робустно и надежно следење на човек, одржувајќи го растојанието зададено од човекот преку гестикулации на рацете.
   \\
-  %Покрај овој главен фокус, дипломската исто пружи примери за примената на самиот Kinect во областа на индустриска автоматизација, како и примери за рачно управување на самиот робот преку bluetooth контролери.
 
 \newpage
 
 \section{Kinect v2 за Windows}
-	Kinect-от од Microsoft претставува композитен сензор составен од една обична RGB (\textit{Red-Green-Blue}) камера и една матрица на инфрацрвени предаватели/приемници, која служи како D (\textit{Depth} - Длабинска) камера. Оваа D камера се нарекува и Time of Flight (ToF) камера, односно камера што го пресеметува времето на изминатиот пат за секој од нејзините оддадени фотони. Заедно создават еден уред кој што може да се смета концептуално како една RGB-D камера. Kinect-от ја игра улогата на главен сензор во нашата работа; преку алгоритми создадени од машинско учење и преку фузија на двата сензори може да ја препознае скелетната положба на 6 луѓе истовремено, како и отвореноста/затвореноста на нивните раце.
+	Како што е опишано во \cite{wassenmuller}, Kinect-от од Microsoft претставува композитен сензор составен од една обична RGB (\textit{Red-Green-Blue}) камера и една матрица на инфрацрвени предаватели/приемници, која служи како D (\textit{Depth} - Длабинска) камера. Оваа D камера се нарекува и Time of Flight (ToF) камера, односно камера што го пресеметува времето на изминатиот пат за секој од нејзините оддадени фотони. Заедно создават еден уред кој што може да се смета концептуално како една RGB-D камера. Kinect-от ја игра улогата на главен сензор во нашата работа; преку алгоритми создадени од машинско учење и преку фузија на двата сензори може да ја препознае скелетната положба на 6 луѓе истовремено, како и отвореноста/затвореноста на нивните раце.
 
   %*REFERENCE HERE
 	Првата верзија на Kinect-от (v1) била создадена од Microsoft во 2010г. како периферен уред за нивниот систем за видео игри - Xbox 360. Првиот Kinect има способност да следи само 2 скелетни положби, и не може да разликува отворени/затворени раце. Во 2013, Microsoft ја изваде Kinect v2, која ги нуди способностите наведени погоре. Иако беше наменет како уред за играње и забава, Kinect-от брзо стана клучен дел од репетоарот на инженерите кои развиваат системи за машински вид поради неговата поволна цена и готови библиотеки. На крајот на ова поглавје е прикачена споредбена табела на двете верзии на Kinect-от.
-  %maybe in an appendix instead of the end of the \section{section name}
-
   \subsection{Time of Flight камери}
-  	Time of Flight (ToF) технологиите се стремуваат да го пресметаат растојанието на секоја набљудена точка од центарот на камерата. Главниот принцип на работа на ToF камерите е набљудувањето на времетраењето на летот на предадените фотони. ToF технологијата се дели понатаму во „директен“ (\textit{pulsed}) ToF и „имплицитен“ (\textit{continuous wave}) ToF. Kinect-от се базира на имплицитен ToF.
+  	Time of Flight (ToF) технологиите се стремуваат да го пресметаат растојанието на секоја набљудена точка од центарот на камерата. Главниот принцип на работа на ToF камерите е набљудувањето на времетраењето на летот на предадените фотони. ToF технологијата се дели понатаму во „директен“ (\textit{pulsed}) ToF и „имплицитен“ (\textit{continuous wave}) ToF\cite{tofwhitepaper}. Kinect-от се базира на имплицитен ToF.
 
-	\subsubsection{Директен ToF}
+	   \subsubsection{Директен ToF}
 		%REFERENCE THIS WHOLE SECTION
-		Методата на директен ToF едноставно се базира на принципите на рефлекција на фотони и мерењето на времето потребно за изминување на целата траекторија.
+		Методата на директен ToF едноставно се базира на принципите на рефлекција на фотони и мерењето на времето потребно за изминување на целата траекторија. Сите равенки и информации се од \cite{tofwhitepaper}.
 
 		За еден многу краток период $ \Delta t $ се напојува изворот на светлина. Рефлектираната енергија за секој пиксел се прима, симултано, во по два приемници $C_1$ и $C_2$ кои се со иста фреквенција на семплирање, но се со фазна разлика од $180 \degree$. Се акумулираат два електрични полнежи $Q_1$ и  $Q_2$, кои се користаат за да се пресмета изминатиот пат на фотонот што припаѓа на i-тиот пиксел, односно:
 		$$ d = \frac{1}{2} \ c\  \Delta t \frac{Q_2}{Q_1 + Q_2} $$
@@ -76,11 +73,11 @@
 		\begin{figure}[H]
 			\includegraphics[width=0.75\linewidth]{./images/impulseToF.png}
 			\centering
-			\caption{Приказ на мерниот протокол на директен ToF}
+			\caption{Приказ на мерниот протокол на директен ToF \cite{tofwhitepaper}}
 			\label{fig:impulseToF.png}
 			\end{figure}
 
-	\subsubsection{Имплицитен ToF}
+	     \subsubsection{Имплицитен ToF}
 		Методата на имплицитен ToF (наречен \textit{Continuous Wave ToF} на англиски) се разликува од директниот на еден клучен начин: Имплицитната метода го мери фазното отстапување помеѓу примениот и оддадениот зрак, кој што непрекинато се испраќа, додека директниот метод работи со директно мерење на време и дискретни импулси. Од оваа добиена фазна разлика, потребни се уште неколку пресметки за да се добие време на изминат пат.
 
 		За разлика од начинот на семплирање кај директната метода, имплцитната метода семплира четири пати при секое мерење, со фазно отстапување на $90\degree$. Со оваа техника, фазниот агол помеѓу оддаден и рефлектиран бран $\phi$ и од тоа растојанието $d$ следат:
@@ -99,7 +96,7 @@
 		\begin{figure}[H]
 			\includegraphics[width=0.75\linewidth]{./images/CWToF.png}
 			\centering
-			\caption{Приказ на мерниот протокол на имплицитен ToF}
+			\caption{Приказ на мерниот протокол на имплицитен ToF \cite{tofwhitepaper}}
 			\label{fig:CWToF.png}
 			\end{figure}
 
@@ -115,6 +112,67 @@
 		$$ d_{dvo} = \frac{c}{2f} $$
 
 		Сензорот е неупотреблив на растојанија поголеми од $d_{dvo}$, бидејќи не се разликува измерената вредност $z$ од било која вредност $z + k d_{dvo}\ | \ k \in \mathbb{N}$.
+
+  \subsection{Споредба и Анализа на Kinect-от}
+    Табелата \ref{tab:comparison} ги споредува важните карактеристики на двете верзии на Kinect сензорот.
+    \begin{table}[H]
+      \centering
+      \label{tab:comparison}
+      \begin{tabular}{||c|c|c||}
+        \hline
+        Особина & Kinect v1 & Kinect v2 \\
+        \hline
+        Бојна Камера & 640 x 480 (30Hz) & 1920 x 1080 (30Hz) \\
+        \hline
+        Длабинска Камера & 320 x 240 & 512 x 424 \\
+        \hline
+        Максимална Длабина & ~4.5M & ~4.5M \\
+        \hline
+        Минимална Длабина & 40cm & 50cm \\
+        \hline
+        Хоризонтално Видно Поле & $57\degree$ & $70\degree$ \\
+        \hline
+        Вертикално Видно Поле & $43\degree$ & $60\degree$ \\
+        \hline
+        Мотор за Аголно Помесетување & Да & Не \\
+        \hline
+        Зголбна Резолуција & 20 зглобови & 26 зглобови \\
+        \hline
+        Истовремено детектирани скелети &  2 & 6 \\
+        \hline
+        USB стандард & 2.0 & 3.0 \\
+        \hline
+        Оперативен Систем & $\geq$ Win7 & $\geq$ Win8 \\
+        \hline
+        Цена (USD) & 50 & 200 \\
+        \hline
+      \end{tabular}
+      \end{table}
+    Во текот на истражувањето на Kinect-от, се најдоа неколку трудови и статии во кои се дискутираше темата на временското ненадлежност поради загревање на Kinect-от при долготрајна употреба. Трудови како \cite{heatup} покажуваат варијација на растојанието измерено од Kinect-от во максимален опсег од прилика 4 милиметри.
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width = 0.75\linewidth]{./images/heatup.png}
+      \label{fig:heatup}
+      \caption{Мерења од страна на Џереми Стјуард \cite{heatup}}
+    \end{figure}
+     Ние изведовме 3 слични тестирања на три разни денови со следните резултати:
+
+    \begin{figure}[H]
+      \centering
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \includegraphics[width = \textwidth]{./images/kinect_graph_1.png}
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+          \centering
+          \includegraphics[width = \textwidth]{./images/kinect_graph_2.png}
+        \end{minipage}
+      \includegraphics[width = 0.45\linewidth]{./images/kinect_graph_3.png}
+      \caption{Наши испитувања на варијација на отчитување според време}
+      \end{figure}
+
+    На крај нашите испитувања отрија стохастична варијација на отчитувањата во опсег на ~10 милиметри. Нашата задача не е одговорна и нема посебно барање за милиметарска прецизност, односно резултатите се сепак задоволителни.
+
 
 \newpage
 
@@ -239,7 +297,7 @@
     \begin{figure}[H]
       %\includegraphics{an-image-that-doesnt-exist-yet.png
       \centering
-      \includegraphics[width = 0.75\linewidth]{./images/shrug_for_windows.PNG}
+      \includegraphics[width = 0.75\linewidth]{./images/shrug_for_windows.png}
       \caption{Излез добиен од горе наведената програма}
       \label{fig:shrug_for_windows}
       \end{figure}
@@ -626,7 +684,7 @@
     \renewcommand{\theenumii}{\arabic{enumii}}
     \renewcommand{\theenumiii}{\arabic{enumiii}}
     \begin{enumerate}
-      \item Кинектот слика и праќа информации за бојната и длабинската информација на сцената пред себе со фреквенција од 30Hz кон главната процесорска единица.
+      \item kinectот слика и праќа информации за бојната и длабинската информација на сцената пред себе со фреквенција од 30Hz кон главната процесорска единица.
       \item Со употреба на алгоритмите за човеково препознавање на Microsoft, се препознаваат луѓето кои се наоѓаат во сцената.
       \item Според критериумот за избор, една од препознатите личности ќе биде избрана за следење, и нејзините декартови координати во однос на камерата се даваат на излез.
       \item Координатите се претворуваат во поларни координати и потоа уште еднаш се претворуваат во облик на општ информациски пакет и се испраќаат до едно-плочниот компјутер на роботот.
@@ -658,7 +716,7 @@
       \draw [fill] (12,0) circle (0.05cm);
       \draw (12, 0) -- (12, -3);
       \draw [->] (12, -3) -- (8, -3);
-      \draw [thick] (8, -3.75) rectangle (6, -2.25) node[pos=.5]{Кинект};
+      \draw [thick] (8, -3.75) rectangle (6, -2.25) node[pos=.5]{kinect};
       \draw (6, -3) -- (1.25, -3);
       \end{tikzpicture}
       \caption{Блок дијаграм на усвоениот систем}
@@ -841,9 +899,9 @@
 
       \paragraph{Иницијализација:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/kinect_init_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/kinect_init_border.png}
 	        \caption{VI за Иницијализација на Kinect-от}
-		      \label{fig:kinect_init.PNG}
+		      \label{fig:kinect_init.png}
 	        \raggedright
 	        \end{figure}
         Слично како и кај блокот за иницијализација за роботот, оваа фунцкија на излез дава референции кон објектот што ја претставува самата камера, и сигнал на грешка. Во случајот на Kinect-от, нема потреба за доведување на било какви идентификациони информации ако се употребува само една камера.
@@ -851,9 +909,9 @@
 
       \paragraph{Деиницијализација:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/kinect_deinit_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/kinect_deinit_border.png}
 	        \caption{VI за Деиницијализација на Kinect-от}
-	        \label{fig:kinect_deinit.PNG}
+	        \label{fig:kinect_deinit.png}
 	        \raggedright
 	        \end{figure}
         Потполно исто со роботската деинцијализација, оваа функција ги прима референциите кон објектот и ги анулира, затворајќи ја комуникационата врска со камерата.
@@ -861,9 +919,9 @@
 
       \paragraph{Отчитување од Рамка:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/kinect_read_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/kinect_read_border.png}
 	        \caption{VI за Отичитување на информација во рамка}
-	        \label{fig:kinect_read.PNG}
+	        \label{fig:kinect_read.png}
 	        \raggedright
 	        \end{figure}
         Овој под-инструмент се нарекува и „полиморфски“ инструмент, бидејќи флексибилен е во однос на излезниот сигнал, без било какви промени на влезот. Оваа функција му дозволува на корисникот да одбери од која „рамка“ отчитува. Под рамка се подразбира вид на информација, односно избира корисникот да оберби бојна, длабинска, инфрацрвена, или „телесна“ слика. Важно е да се спомени дека телесната слика на излез не дава слика, туку низа со димензија $1 \times 6$ чиј секој елемент е податок од тип \textit{cluster} кој ги содржи координатите на телото во 3 разни координатни системи - бојна камера (м.е. пиксели), длабинска камера (м.е. пиксели), и вистинската камера (м.е. метри), како и некои други корисни мета-информации.
@@ -871,9 +929,9 @@
 
       \paragraph{Отчитување на Зглобни Координати:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/kinect_joints_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/kinect_joints_border.png}
 	        \caption{VI за Отчитување на зглобните координати на озбраната личност}
-	        \label{fig:kinect_joints.PNG}
+	        \label{fig:kinect_joints.png}
 	        \raggedright
 	        \end{figure}
         Функцијата за отчитување на координатите на самите зглобови ги прима како влез индексот од 0 - 5 на телото и една енумерирана вредност која го претставува самиот зглоб. Иако не се доведува низата што се генерира од отчитувањето на телесната слика, оваа фунцкија сепак има пристап до зглобовите. На излез го дава соодветниот \textit{cluster} на посаканиот зглоб.
@@ -884,9 +942,9 @@
 
       \paragraph{Иницијализација:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/controller_init_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/controller_init_border.png}
 		      \caption{VI за Иницијализација на \textit{bluetooth} контролерот}
-	        \label{fig:controller_init.PNG}
+	        \label{fig:controller_init.png}
 	        \raggedright
 	        \end{figure}
         Стандарден блок за иницијализација на уред, во овој случај PS4 контролерот. По желба може да се избере дали да се иницијализира првиот конектиран уред, или во случај на повеќе уреди, може да се избере специфичен контролер по автоматски зададен индекс. Како излез од блокот повторно добиваме референции кон објектот, односно контролерот, и сигнал на грешка.
@@ -894,9 +952,9 @@
 
       \paragraph{Деиницијализација:\\}
         \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/controller_deinit_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/controller_deinit_border.png}
 		      \caption{VI за Деиницијализација на \textit{bluetooth} контролерот}
-	        \label{fig:controller_deinit.PNG}
+	        \label{fig:controller_deinit.png}
 	        \raggedright
 	        \end{figure}
         Иста функција и влезови како и горенаведените блокови за деиницијализација.
@@ -904,9 +962,9 @@
 
       \paragraph{Отчитување:\\}
         \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/controller_read_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/controller_read_border.png}
 		      \caption{VI за отчитување на наредби од контролерот}
-	        \label{fig:controller_read.PNG}
+	        \label{fig:controller_read.png}
 	        \raggedright
 	        \end{figure}
         Оваа функција за отчитување има две излезни порти: првата порта има ги дава отчитуваните вредности на копчињата, а втората порта се користи за детекција на промени (\textit{Event Detection}) во состојбата на голем број од влезовите. Оваа порта понатаму се поврзува со \textit{Event Structure} и го поедноставува процесот на интегрирање на контролата во програмата.
@@ -915,9 +973,9 @@
   \subsection{Специјално изработени Виртуелни Инструменти и Контроли}
     \label{sec:bodydetect}
 	  \begin{figure}[H]
-	    \includegraphics[width=0.55\linewidth]{./images/humanDetect_border.PNG}
+	    \includegraphics[width=0.55\linewidth]{./images/humanDetect_border.png}
 		  \caption{Главен пресметковен VI за човеково препознавање и избор}
-	    \label{fig:humanDetect.PNG}
+	    \label{fig:humanDetect.png}
 	    \raggedright
 	    \end{figure}
 
@@ -931,9 +989,9 @@
     \subsubsection{colourDist}
       %\paragraph{colourDist:\\}
 	    \begin{figure}[H]
-	      \includegraphics[width=0.55\linewidth]{./images/colourDist_border.PNG}
+	      \includegraphics[width=0.55\linewidth]{./images/colourDist_border.png}
 		    \caption{Потфункцијата \textit{colourDist} за обработка на бојна информација}
-	      \label{fig:colourDist.PNG}
+	      \label{fig:colourDist.png}
 	      \raggedright
 	      \end{figure}
       Подфункцијата \textit{colourDist} се наоѓа во инструментот за препознавање \textit{bodyDetect} и ја врши анализата на обоените области. Оваа фунцкија исто има два режими на работа со два вида на толеранти полиња на боја. На влез е доведена просечната боја на една област, и функцијата проверува дали оваа просечна боја припаѓа на едно претходно дефинирано толерантно поле, кое се наоѓа во дискретен тридимензионален боен декартов систем (поглавје \ref{sec:colour_theory}). Толерантното поле проверува за сличност според хроматичност (состав на боја), но и е проширено за да прифаќа еден поширок опсег на осветлувања.
@@ -976,7 +1034,7 @@
     \subsubsection{differentialDrive}
       %\paragraph{differentialDrive:\\}
 	    \begin{figure}[H]
-	      \includegraphics[width=0.55\linewidth]{./images/differential_drive_border.PNG}
+	      \includegraphics[width=0.55\linewidth]{./images/differential_drive_border.png}
 		    \caption{Управувачот \textit{differentialDrive}}
 	      \label{fig:diffDrive}
 	      \raggedright
@@ -987,7 +1045,7 @@
     \subsubsection{Телеоперација}
       %\paragraph{Телеоперација:\\}
 	    \begin{figure}[H]
-	      \includegraphics[width=0.55\linewidth]{./images/teleop_tooltip_border.PNG}
+	      \includegraphics[width=0.55\linewidth]{./images/teleop_tooltip_border.png}
 		    \caption{Блок за управување преку \textit{bluetooth}}
 	      \label{fig:teleop}
 	      \raggedright
@@ -1001,7 +1059,7 @@
 
       \paragraph{Засилувања:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/typedef_gains_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/typedef_gains_border.png}
 		      \caption{Typedef за засилувања}
 	        \label{fig:gain_typedef}
 	        \raggedright
@@ -1011,7 +1069,7 @@
 
       \paragraph{Брзини:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/typedef_speeds_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/typedef_speeds_border.png}
 		      \caption{Typedef за брзини}
 	        \label{fig:gain_typedef}
 	        \raggedright
@@ -1021,7 +1079,7 @@
 
       \paragraph{Референтни Вредности:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/typedef_setpoints_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/typedef_setpoints_border.png}
 		      \caption{Typedef за референтни вредности}
 	        \label{fig:setpoints_typedef}
 	        \raggedright
@@ -1031,7 +1089,7 @@
 
       \paragraph{Стопирање на Роботот:\\}
 	      \begin{figure}[H]
-	        \includegraphics[width=0.55\linewidth]{./images/typedef_stop_border.PNG}
+	        \includegraphics[width=0.55\linewidth]{./images/typedef_stop_border.png}
 		      \caption{Typedef за стопирање на роботот}
 	        \label{fig:setpoints_typedef}
 	        \raggedright
@@ -1050,17 +1108,17 @@
       Три произведувачи на параметарски пораки работат паралелно, чекајќи да се зададе промена на некој параметар од страна на корисникот и да се постави новата информација на челото на редот за пораки кои ќе се праќаат до роботот.
       \begin{figure}[H]
           \centering
-          \includegraphics[width=0.75\linewidth]{./images/gain_message_generator.PNG}
+          \includegraphics[width=0.75\linewidth]{./images/gain_message_generator.png}
           \caption{Произведувач на Пораки - Засилувања}
           \end{figure}
       \begin{figure}[H]
           \centering
-          \includegraphics[width=0.75\linewidth]{./images/setpoint_message_generator.PNG}
+          \includegraphics[width=0.75\linewidth]{./images/setpoint_message_generator.png}
           \caption{Произведувач на Пораки - Рефентни Вредности}
           \end{figure}
       \begin{figure}[H]
           \centering
-          \includegraphics[width=0.75\linewidth]{./images/robot_stop_generator.PNG}
+          \includegraphics[width=0.75\linewidth]{./images/robot_stop_generator.png}
           \caption{Произведувач на Пораки - Запирање на Роботот}
           \end{figure}
       Овие произведувачи работат во настанска структура (\textit{event structure}), односно реагираат само кога ќе има промена во таа вредност за која се одговорни.
@@ -1069,13 +1127,13 @@
     Произведувачот на движечки наредби е главниот дел од програмата, и во зависност од режимот на работа одбран од корисникот, тој функционира на различни начини. Доколку корисникот избере режим на телеоперација, роботот се управува со \textit{bluetooth} контролерот како било кое друго возило со радио управување. Доколу корисникот избере еден од режимите на автономна работа, роботот ќе ја изврши соодветната функција (поглавје \ref{sec:bodydetect}), при која на излез ќе добие соодветни наредби за движење.
       \begin{figure}[H]
         \centering
-        \includegraphics[angle=-90, scale=0.75]{./images/command_generator_true.PNG} %FIX THIS IMAGE
+        \includegraphics[angle=-90, scale=0.75]{./images/command_generator_true.png} %FIX THIS IMAGE
         \caption{Произведувач на наредби при автономно движење}
         \end{figure}
       Независно од тоа како се добиени овие наредби, тие се пакуваат во формата на општата порака и се поставуваат во редот за пораки.
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\linewidth]{./images/command_generator_false.PNG}
+        \includegraphics[width=0.8\linewidth]{./images/command_generator_false.png}
         \caption{Произведувач на наредби при телеоперација}
         \end{figure}
 
@@ -1086,7 +1144,7 @@
       Сите пораки се ставени во еден ред на податоци, создаден со \textit{Queue} фунцкијата. Секој произведувач ги става своите пораки во овој ред. Наредбите за движење се ставаат на крајот на редот, додека другите се сметаат за итни и се ставаат на челото на редот. Структурата за раковедење со пораките има за задача да ги отчитува пораките од челото на редот и да ги испраќа преку мрежниот тек (\textit{Network Stream}) до роботот. Мрежниот тек е комуникациски интерфејс кој припаѓа на LabVIEW, и поради тоа тој има поддршка за сите негови видови на податоци, вклучувајќи и \textit{typedefs}. Тоа значи дека, за разлика од поопшти комуникациски протоколи како TCP/IP и UDP, овој протокол нема потреба од припрема на податоци пред испраќање, ниту посебно толкување при примање. Но, еден недостаток е тоа што секој мрежен тек може да пренесува само еден вид на податок, пр. \verb+uint16+ или \verb+string+. За ова да се заобиколи, се употребува специјалниот typedef \textbf{порака} (поглавје \ref{sec:typedefs}). Поради структурата податок-етикета, пораката може да се прилагоди за пренесување на било кој вид на податок (вклучувајќи и други typedefs), и на овој начин со еден мрежен тек се пренесуваат сите посакани податоци.
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\linewidth]{./images/message_handler.PNG}
+        \includegraphics[width=0.35\linewidth]{./images/message_handler.png}
         \caption{Управувачот на пораки}
         \end{figure}
 
@@ -1150,14 +1208,29 @@
 
   Со овие податоци, роботот се насочува и движи кон најдобрата детектирана празнина.
 \newpage
-\section{Анекс 2 - Целосен C++ код од поглавје \ref{sec:example}}
+\section{Анекс 2 - Линкови до Github страни на изворните кодови}
     На следниот линк може заинтересираниот читач да го најде целосиот код за примерот од поглавјe \ref{sec:example}. Кодот е напишан во C++ во Visual Studio 2017 Community и има потреба од openCV библиотеката, како и SDK-то на Kinect-от.
 
     https://github.com/markogalevski/DaNI\_Kinect2\_Tracker
 
+    Целата програма за дипломската работа напишана во LabVIEW 2012 може да се спушти од следниот линк. Потребно корисникот да ги има следните пакети:
+    \begin{itemize}
+      \item OS: $\geq$ Windows 8
+      \item LabVIEW 2012 (32bit)
+      \item LabVIEW Robotics модул
+      \item LabVIEW FPGA модул
+      \item LabVIEW Real-Time модул
+      \item LabVIEW Vision Development модул
+      \item LabVIEW NI RIO Drivers
+      \item $\geq$.NET4.0
+      \item Kinect 2.0 SDK
+      \item VI Package Manager - MakerHub Kinect 2 и MakerHub PS4 Controller модули
+      \end{itemize}
 
+    https://github.com/markogalevski/Bachelors-LabVIEW
 \medskip
-\nocite{*}
+%\nocite{*}
+\newpage
 \printbibliography[heading=bibintoc,title={Користена литература}]
 
 \end{document}
