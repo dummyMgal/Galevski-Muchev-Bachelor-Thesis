@@ -137,4 +137,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10}\IeC {\CYRA }\IeC {\cyrn }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrs } II - \IeC {\CYRL }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyri } \IeC {\cyrd }\IeC {\cyro } Github \IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyri }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyri }}{51}
 \defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Kinect \IeC {\CYRP }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrr }:\\}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{LabVIEW \IeC {\CYRK }\IeC {\cyro }\IeC {\cyrd }:\\}{51}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrl }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra }}{52}
