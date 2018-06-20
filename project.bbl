@@ -1,0 +1,722 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{heatup}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c00410f9372f6a7ea47fda2158b771b9}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={J.\bibnamedelimi Steward},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{c00410f9372f6a7ea47fda2158b771b9}
+      \strng{fullhash}{c00410f9372f6a7ea47fda2158b771b9}
+      \strng{bibnamehash}{c00410f9372f6a7ea47fda2158b771b9}
+      \strng{authorbibnamehash}{c00410f9372f6a7ea47fda2158b771b9}
+      \strng{authornamehash}{c00410f9372f6a7ea47fda2158b771b9}
+      \strng{authorfullhash}{c00410f9372f6a7ea47fda2158b771b9}
+      \field{sortinit}{a}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Performance Assessment and Calibration of the Kinect 2.0 Time-of-Flight Range Camera for Use in Motion Capture Applications}
+      \field{year}{2015}
+      \keyw{Low cost technology; Photogrammetry; Range Camera; Motion Capture}
+    \endentry
+    \entry{kim}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c991824010ac62ba8f696ce437d4c7df}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={K.\bibnamedelimi Kim},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{c991824010ac62ba8f696ce437d4c7df}
+      \strng{fullhash}{c991824010ac62ba8f696ce437d4c7df}
+      \strng{bibnamehash}{c991824010ac62ba8f696ce437d4c7df}
+      \strng{authorbibnamehash}{c991824010ac62ba8f696ce437d4c7df}
+      \strng{authornamehash}{c991824010ac62ba8f696ce437d4c7df}
+      \strng{authorfullhash}{c991824010ac62ba8f696ce437d4c7df}
+      \field{sortinit}{a}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real-time foreground-background segmentation using codebook model}
+      \field{year}{2005}
+      \keyw{Real-time imaging}
+    \endentry
+    \entry{differential_drive_robots}{article}{}
+      \name{author}{1}{}{%
+        {{hash=20f1c8566be00ff610d271a40ddba362}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima Kirby},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Columbia University NY}%
+      }
+      \strng{namehash}{20f1c8566be00ff610d271a40ddba362}
+      \strng{fullhash}{20f1c8566be00ff610d271a40ddba362}
+      \strng{bibnamehash}{20f1c8566be00ff610d271a40ddba362}
+      \strng{authorbibnamehash}{20f1c8566be00ff610d271a40ddba362}
+      \strng{authornamehash}{20f1c8566be00ff610d271a40ddba362}
+      \strng{authorfullhash}{20f1c8566be00ff610d271a40ddba362}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential Drive Robotics}
+      \keyw{differential drive,mobile robotics}
+    \endentry
+    \entry{kansasrobotics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c70c98af257716c6c26b927438e0aa82}{%
+           family={Bower},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c70c98af257716c6c26b927438e0aa82}
+      \strng{fullhash}{c70c98af257716c6c26b927438e0aa82}
+      \strng{bibnamehash}{c70c98af257716c6c26b927438e0aa82}
+      \strng{authorbibnamehash}{c70c98af257716c6c26b927438e0aa82}
+      \strng{authornamehash}{c70c98af257716c6c26b927438e0aa82}
+      \strng{authorfullhash}{c70c98af257716c6c26b927438e0aa82}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robotics Programming Study Guide}
+      \verb{urlraw}
+      \verb http://faculty.salina.k-state.edu/tim/robotics_sg/
+      \endverb
+      \verb{url}
+      \verb http://faculty.salina.k-state.edu/tim/robotics_sg/
+      \endverb
+      \keyw{robotics}
+    \endentry
+    \entry{robotics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c0e503339314930d140b67b5e7c55c3e}{%
+           family={Corke},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c0e503339314930d140b67b5e7c55c3e}
+      \strng{fullhash}{c0e503339314930d140b67b5e7c55c3e}
+      \strng{bibnamehash}{c0e503339314930d140b67b5e7c55c3e}
+      \strng{authorbibnamehash}{c0e503339314930d140b67b5e7c55c3e}
+      \strng{authornamehash}{c0e503339314930d140b67b5e7c55c3e}
+      \strng{authorfullhash}{c0e503339314930d140b67b5e7c55c3e}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robotics, Vision, and Control}
+      \field{year}{2011}
+    \endentry
+    \entry{colourcube}{article}{}
+      \name{author}{1}{}{%
+        {{hash=59161e5557d99f9d144b1da1edeee03a}{%
+           family={Deise\bibnamedelima Maia},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Roque\bibnamedelima Trindade},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Journal of Signal Processing, Image Processing,}%
+        {Pattern Recognition}%
+      }
+      \strng{namehash}{59161e5557d99f9d144b1da1edeee03a}
+      \strng{fullhash}{59161e5557d99f9d144b1da1edeee03a}
+      \strng{bibnamehash}{59161e5557d99f9d144b1da1edeee03a}
+      \strng{authorbibnamehash}{59161e5557d99f9d144b1da1edeee03a}
+      \strng{authornamehash}{59161e5557d99f9d144b1da1edeee03a}
+      \strng{authorfullhash}{59161e5557d99f9d144b1da1edeee03a}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Face Detection and Recognition in Color Images under Matlab}
+      \field{year}{2016}
+    \endentry
+    \entry{dcmotor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a681d161cec76be19b8aaa08c2f84beb}{%
+           family={Educational},
+           familyi={E\bibinitperiod},
+           given={PITSCO},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a681d161cec76be19b8aaa08c2f84beb}
+      \strng{fullhash}{a681d161cec76be19b8aaa08c2f84beb}
+      \strng{bibnamehash}{a681d161cec76be19b8aaa08c2f84beb}
+      \strng{authorbibnamehash}{a681d161cec76be19b8aaa08c2f84beb}
+      \strng{authornamehash}{a681d161cec76be19b8aaa08c2f84beb}
+      \strng{authorfullhash}{a681d161cec76be19b8aaa08c2f84beb}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tetrix Max DC Motor}
+      \verb{urlraw}
+      \verb https://www.pitsco.com/TETRIX-DC-Gear-Motor
+      \endverb
+      \verb{url}
+      \verb https://www.pitsco.com/TETRIX-DC-Gear-Motor
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{sabertooth}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d18c3e16bc1f912cac1354a164f61167}{%
+           family={Engineering},
+           familyi={E\bibinitperiod},
+           given={Dimension},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d18c3e16bc1f912cac1354a164f61167}
+      \strng{fullhash}{d18c3e16bc1f912cac1354a164f61167}
+      \strng{bibnamehash}{d18c3e16bc1f912cac1354a164f61167}
+      \strng{authorbibnamehash}{d18c3e16bc1f912cac1354a164f61167}
+      \strng{authornamehash}{d18c3e16bc1f912cac1354a164f61167}
+      \strng{authorfullhash}{d18c3e16bc1f912cac1354a164f61167}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sabertooth Dual 10A Motor Driver}
+      \verb{urlraw}
+      \verb https://www.dimensionengineering.com/products/sabertooth2x10
+      \endverb
+      \verb{url}
+      \verb https://www.dimensionengineering.com/products/sabertooth2x10
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{machinelearning}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c7962a17a3db46d2d1699cb7950d07b8}{%
+           family={Fairhead},
+           familyi={F\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \strng{fullhash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \strng{bibnamehash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \strng{authorbibnamehash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \strng{authornamehash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \strng{authorfullhash}{c7962a17a3db46d2d1699cb7950d07b8}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kinect's AI breakthrough explained}
+      \verb{urlraw}
+      \verb http://www.i-programmer.info/news/105-artificial-intelligence/2176-kinects-ai-breakthrough-explained.html
+      \endverb
+      \verb{url}
+      \verb http://www.i-programmer.info/news/105-artificial-intelligence/2176-kinects-ai-breakthrough-explained.html
+      \endverb
+      \keyw{ai}
+    \endentry
+    \entry{mobilerobotics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b040328db597d60ef35199703b502651}{%
+           family={Gregory\bibnamedelima Dudek},
+           familyi={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Michael\bibnamedelima Jenkin},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b040328db597d60ef35199703b502651}
+      \strng{fullhash}{b040328db597d60ef35199703b502651}
+      \strng{bibnamehash}{b040328db597d60ef35199703b502651}
+      \strng{authorbibnamehash}{b040328db597d60ef35199703b502651}
+      \strng{authornamehash}{b040328db597d60ef35199703b502651}
+      \strng{authorfullhash}{b040328db597d60ef35199703b502651}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computational Principles of Mobile Robotics}
+      \keyw{mobile robotics}
+    \endentry
+    \entry{sbrio}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e07a8a16139f25a4c05b0e1e9aedfa3a}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={National},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{fullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{bibnamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authorbibnamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authornamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authorfullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NI sbRIO 96xx User Guide}
+      \verb{urlraw}
+      \verb http://www.ni.com/pdf/manuals/375052c.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ni.com/pdf/manuals/375052c.pdf
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{dani}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e07a8a16139f25a4c05b0e1e9aedfa3a}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={National},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{fullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{bibnamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authorbibnamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authornamehash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \strng{authorfullhash}{e07a8a16139f25a4c05b0e1e9aedfa3a}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Starter Kit 2.0 VIs}
+      \verb{urlraw}
+      \verb http://zone.ni.com/reference/en-XX/help/372983B-01/lvrobovi/starter_kit_2_pal/
+      \endverb
+      \verb{url}
+      \verb http://zone.ni.com/reference/en-XX/help/372983B-01/lvrobovi/starter_kit_2_pal/
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{vfh}{book}{}
+      \name{author}{1}{}{%
+        {{hash=695ea4922891f88599212721fa57008d}{%
+           family={J.\bibnamedelimi Borenstein},
+           familyi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Y.\bibnamedelimi Koren},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{695ea4922891f88599212721fa57008d}
+      \strng{fullhash}{695ea4922891f88599212721fa57008d}
+      \strng{bibnamehash}{695ea4922891f88599212721fa57008d}
+      \strng{authorbibnamehash}{695ea4922891f88599212721fa57008d}
+      \strng{authornamehash}{695ea4922891f88599212721fa57008d}
+      \strng{authorfullhash}{695ea4922891f88599212721fa57008d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Vector Field Histogram - Fast Obstacle Avoidance For Mobile Robots}
+      \keyw{physics}
+    \endentry
+    \entry{experiments}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5f19f8299eb426ab20c344b262859f7d}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Dr.\bibnamedelimi Robert},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Colorado School of Mines}%
+      }
+      \strng{namehash}{5f19f8299eb426ab20c344b262859f7d}
+      \strng{fullhash}{5f19f8299eb426ab20c344b262859f7d}
+      \strng{bibnamehash}{5f19f8299eb426ab20c344b262859f7d}
+      \strng{authorbibnamehash}{5f19f8299eb426ab20c344b262859f7d}
+      \strng{authornamehash}{5f19f8299eb426ab20c344b262859f7d}
+      \strng{authorfullhash}{5f19f8299eb426ab20c344b262859f7d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile Robotics Experiments with DaNI}
+      \keyw{physics}
+    \endentry
+    \entry{knuth-fa}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=fcbea740aeb72b8e941e0d4aa9f6a9c6}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{fullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{bibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authorbibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authornamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \strng{authorfullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{1.2}
+      \field{title}{Fundamental Algorithms}
+      \field{year}{1973}
+      \keyw{knuth,programming}
+    \endentry
+    \entry{nColours}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5e7235151cba00705c16e10a724e1e93}{%
+           family={Leong},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e7235151cba00705c16e10a724e1e93}
+      \strng{fullhash}{5e7235151cba00705c16e10a724e1e93}
+      \strng{bibnamehash}{5e7235151cba00705c16e10a724e1e93}
+      \strng{authorbibnamehash}{5e7235151cba00705c16e10a724e1e93}
+      \strng{authornamehash}{5e7235151cba00705c16e10a724e1e93}
+      \strng{authorfullhash}{5e7235151cba00705c16e10a724e1e93}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Number of Colors Distinguishable By The Human Eye}
+      \verb{urlraw}
+      \verb https://hypertextbook.com/facts/2006/JenniferLeong.shtml
+      \endverb
+      \verb{url}
+      \verb https://hypertextbook.com/facts/2006/JenniferLeong.shtml
+      \endverb
+      \keyw{trichromacy}
+    \endentry
+    \entry{tofwhitepaper}{article}{}
+      \name{author}{1}{}{%
+        {{hash=480ac5374515d5357db69805eb7df188}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{480ac5374515d5357db69805eb7df188}
+      \strng{fullhash}{480ac5374515d5357db69805eb7df188}
+      \strng{bibnamehash}{480ac5374515d5357db69805eb7df188}
+      \strng{authorbibnamehash}{480ac5374515d5357db69805eb7df188}
+      \strng{authornamehash}{480ac5374515d5357db69805eb7df188}
+      \strng{authorfullhash}{480ac5374515d5357db69805eb7df188}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time-of-Flight Camera - An Introduction}
+      \field{year}{2014}
+      \keyw{time of flight}
+    \endentry
+    \entry{kinectAPI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kinect for Windows SDK}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn799271(v%3dieb.10)
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn799271(v%3dieb.10)
+      \endverb
+      \keyw{API}
+    \endentry
+    \entry{wassenmuller}{article}{}
+      \name{author}{1}{}{%
+        {{hash=44c4ecffbbc189aed49ac0dbf209d519}{%
+           family={Oliver\bibnamedelima Wasenmueller},
+           familyi={O\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Didier\bibnamedelima Stricker},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {German Research Center for Artifical Intelligence}%
+      }
+      \strng{namehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{fullhash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{bibnamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authorbibnamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authornamehash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \strng{authorfullhash}{44c4ecffbbc189aed49ac0dbf209d519}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparison of Kinect v1 and v2 Depth Images in Terms of Accuracy and Precision}
+    \endentry
+    \entry{nancyowen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4bc2d6b4857d8a971ed1c04dcf7b1b19}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \strng{fullhash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \strng{bibnamehash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \strng{authorbibnamehash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \strng{authornamehash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \strng{authorfullhash}{4bc2d6b4857d8a971ed1c04dcf7b1b19}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kinect for Windows SDK v2 Sample Program}
+      \verb{urlraw}
+      \verb https://github.com/UnaNancyOwen/Kinect2Sample
+      \endverb
+      \verb{url}
+      \verb https://github.com/UnaNancyOwen/Kinect2Sample
+      \endverb
+      \keyw{kinect_examples}
+    \endentry
+    \entry{ping}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c626285221f3850191ea3ce4b917779c}{%
+           family={Parallax},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c626285221f3850191ea3ce4b917779c}
+      \strng{fullhash}{c626285221f3850191ea3ce4b917779c}
+      \strng{bibnamehash}{c626285221f3850191ea3ce4b917779c}
+      \strng{authorbibnamehash}{c626285221f3850191ea3ce4b917779c}
+      \strng{authornamehash}{c626285221f3850191ea3ce4b917779c}
+      \strng{authorfullhash}{c626285221f3850191ea3ce4b917779c}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PING))) Ultrasonic Distance Sensor}
+      \verb{urlraw}
+      \verb https://www.parallax.com/sites/default/files/downloads/28015-PING-Sensor-Product-Guide-v2.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.parallax.com/sites/default/files/downloads/28015-PING-Sensor-Product-Guide-v2.0.pdf
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{pid}{book}{}
+      \name{author}{1}{}{%
+        {{hash=64bd2bac9d620a506d324f0e18b1aab1}{%
+           family={Petrovich},
+           familyi={P\bibinitperiod},
+           given={Dushan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \strng{fullhash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \strng{bibnamehash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \strng{authorbibnamehash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \strng{authornamehash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \strng{authorfullhash}{64bd2bac9d620a506d324f0e18b1aab1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatskog Upravlivanja Interna Skripta I PPT Prezentacija}
+      \keyw{physics}
+    \endentry
+    \entry{fpga}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f55ffe138d0d53d3eefdb3f30b312f0e}{%
+           family={Raveon},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{fullhash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{bibnamehash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{authorbibnamehash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{authornamehash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \strng{authorfullhash}{f55ffe138d0d53d3eefdb3f30b312f0e}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FPGA-Field Programmable Gate Array}
+      \verb{urlraw}
+      \verb http://www.rfneulink.com/FPGA-whitearticle.htm
+      \endverb
+      \verb{url}
+      \verb http://www.rfneulink.com/FPGA-whitearticle.htm
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{robothistory}{online}{}
+      \name{author}{1}{}{%
+        {{hash=74d6d5ae044efa3fb1d50fb0bbd1f7b2}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={International\bibnamedelima Federation},
+           giveni={I\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \strng{fullhash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \strng{bibnamehash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \strng{authorbibnamehash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \strng{authornamehash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \strng{authorfullhash}{74d6d5ae044efa3fb1d50fb0bbd1f7b2}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robot History}
+      \verb{urlraw}
+      \verb https://ifr.org/robot-history
+      \endverb
+      \verb{url}
+      \verb https://ifr.org/robot-history
+      \endverb
+    \endentry
+    \entry{servo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ea8fb861e4ce220231dd2b7a715ab933}{%
+           family={Servocity},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \strng{fullhash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \strng{bibnamehash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \strng{authorbibnamehash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \strng{authornamehash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \strng{authorfullhash}{ea8fb861e4ce220231dd2b7a715ab933}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{HS-485HB Servo}
+      \verb{urlraw}
+      \verb https://www.servocity.com/hs-485hb-servo
+      \endverb
+      \verb{url}
+      \verb https://www.servocity.com/hs-485hb-servo
+      \endverb
+      \keyw{construction}
+    \endentry
+    \entry{svaetchin}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0825f652d86c36840e861d2bffc8b219}{%
+           family={Svaetchin},
+           familyi={S\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0825f652d86c36840e861d2bffc8b219}
+      \strng{fullhash}{0825f652d86c36840e861d2bffc8b219}
+      \strng{bibnamehash}{0825f652d86c36840e861d2bffc8b219}
+      \strng{authorbibnamehash}{0825f652d86c36840e861d2bffc8b219}
+      \strng{authornamehash}{0825f652d86c36840e861d2bffc8b219}
+      \strng{authorfullhash}{0825f652d86c36840e861d2bffc8b219}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spectral response curves from single cones}
+      \field{year}{1956}
+    \endentry
+    \entry{lvforeveryone}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=927b86555d31112ef67456042029b57d}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{927b86555d31112ef67456042029b57d}
+      \strng{fullhash}{927b86555d31112ef67456042029b57d}
+      \strng{bibnamehash}{927b86555d31112ef67456042029b57d}
+      \strng{authorbibnamehash}{927b86555d31112ef67456042029b57d}
+      \strng{authornamehash}{927b86555d31112ef67456042029b57d}
+      \strng{authorfullhash}{927b86555d31112ef67456042029b57d}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{7, 13}
+      \field{title}{LabVIEW for Everyone}
+      \field{year}{2006}
+      \keyw{labview}
+    \endentry
+    \entry{young}{article}{}
+      \name{author}{1}{}{%
+        {{hash=303e5b1e86249ca165ef0f41a60f2671}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{bibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorbibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authornamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bakerian Lecture: On the Theory of Light and Colours}
+      \field{year}{1802}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
