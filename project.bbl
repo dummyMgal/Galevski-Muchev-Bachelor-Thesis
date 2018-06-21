@@ -716,6 +716,56 @@
       \field{title}{Bakerian Lecture: On the Theory of Light and Colours}
       \field{year}{1802}
     \endentry
+    \entry{vfh_images}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a66052a3b9851ef64e4fa52c9f8c2f86}{%
+           family={Zohaib},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e366e55fafb7078b24ee4548e6d0586}{%
+           family={Pasha},
+           familyi={P\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0aa00aecb34f9c6ad64130327b4c04a9}{%
+           family={Riaz},
+           familyi={R\bibinitperiod},
+           given={Raja\bibnamedelima Ali},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e175e0937024b1070f005b754647b028}{%
+           family={Javaid},
+           familyi={J\bibinitperiod},
+           given={Nadeem},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4f1d6e452dcdaf6ad03c69660b6e7889}{%
+           family={Ilahi},
+           familyi={I\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=09806b118311811d13f651f15d10b9c0}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Rahim},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{64d0d4126b5cb0984e434aca656f7fd7}
+      \strng{fullhash}{39d04759320f30923ffb77f9798d3dc7}
+      \strng{bibnamehash}{64d0d4126b5cb0984e434aca656f7fd7}
+      \strng{authorbibnamehash}{64d0d4126b5cb0984e434aca656f7fd7}
+      \strng{authornamehash}{64d0d4126b5cb0984e434aca656f7fd7}
+      \strng{authorfullhash}{39d04759320f30923ffb77f9798d3dc7}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{Control Strategies for Mobile Robot With Obstacle Avoidance}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{pages}{1027\bibrangedash 1036}
+      \range{pages}{10}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
