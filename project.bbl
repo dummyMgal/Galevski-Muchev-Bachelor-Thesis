@@ -449,6 +449,29 @@
       \field{year}{2014}
       \keyw{time of flight}
     \endentry
+    \entry{pid}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=dde051906a606140815a60eae587f601}{%
+           family={M.},
+           familyi={M\bibinitperiod},
+           given={Araki},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dde051906a606140815a60eae587f601}
+      \strng{fullhash}{dde051906a606140815a60eae587f601}
+      \strng{bibnamehash}{dde051906a606140815a60eae587f601}
+      \strng{authorbibnamehash}{dde051906a606140815a60eae587f601}
+      \strng{authornamehash}{dde051906a606140815a60eae587f601}
+      \strng{authorfullhash}{dde051906a606140815a60eae587f601}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{PID Control}
+      \field{title}{Control Systems, Robotics, and Automation Vol. II}
+      \field{year}{2009}
+      \keyw{pid}
+    \endentry
     \entry{kinectAPI}{online}{}
       \name{author}{1}{}{%
         {{hash=140864078aeca1c7c35b4beb33c53c34}{%
@@ -552,7 +575,7 @@
       \endverb
       \keyw{construction}
     \endentry
-    \entry{pid}{book}{}
+    \entry{pid_old}{book}{}
       \name{author}{1}{}{%
         {{hash=64bd2bac9d620a506d324f0e18b1aab1}{%
            family={Petrovich},

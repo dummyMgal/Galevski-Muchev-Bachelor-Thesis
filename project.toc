@@ -55,6 +55,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.4.1}\IeC {\CYRV }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr } \IeC {\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl } \IeC {\cyri } \IeC {\CYRP }\IeC {\CYRD } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre }}{24}
 \defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\IeC {\CYRP }\IeC {\CYRI }\IeC {\CYRD } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyra } (\IeC {\cyro }\IeC {\cyrd } \cite {pid}):\\}{24}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5}\IeC {\CYRT }\IeC {\cyre }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrje }\IeC {\cyra } \IeC {\cyrn }\IeC {\cyra } \IeC {\CYRB }\IeC {\cyro }\IeC {\cyrje }\IeC {\cyra } \IeC {\cyrz }\IeC {\cyra } \IeC {\CYRK }\IeC {\cyro }\IeC {\cyrm }\IeC {\cyrp }\IeC {\cyrje }\IeC {\cyru }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri } \IeC {\CYRS }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }}{25}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}\IeC {\CYRS }\IeC {\cyro }\IeC {\cyrf }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrnje }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyro } LabVIEW}{26}
